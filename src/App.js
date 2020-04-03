@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PhoneForm from './components/PhoneForm';
 import PhoneInfoList from './components/PhoneInfoList';
+import ImgA from './assets/minchul.png';
 
 class App extends Component {
   id = 2
@@ -8,8 +9,9 @@ class App extends Component {
     information: [
       {
         id: 0,
-        name: '김민준',
-        phone: '010-0000-0000'
+        name: '강민철',
+        phone: '010-0000-0000',
+        img: ImgA
       },
       {
         id: 1,
